@@ -18,7 +18,7 @@ export default function Hero({ onExploreMenu }: HeroProps) {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat scale-105 transform transition-transform duration-10000 ease-out"
         style={{
-          backgroundImage: "url('/restaurant/hero_bg.png')",
+          backgroundImage: "url('./restaurant/hero_bg.png')",
         }}
       />
 
@@ -191,7 +191,7 @@ export default function Hero({ onExploreMenu }: HeroProps) {
                 {/* Visual Background image of the Unlimited Thali (unhidden and fully visible!) */}
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 ease-out group-hover:scale-110 z-0"
-                  style={{ backgroundImage: "url('/restaurant/generated/cat_unlimited.png')" }}
+                  style={{ backgroundImage: "url('./restaurant/generated/cat_unlimited.png')" }}
                 />
                 
                 {/* Gradient Contrast Overlay */}

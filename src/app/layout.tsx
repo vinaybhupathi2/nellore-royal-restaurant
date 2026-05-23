@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hotel Nellore Royal | Multi-Cuisine A/C Restaurant",
     description: "Savor our legendary Unlimited Thalis, Natukodi Pulusu, and slow-cooked Dum Biryanis. Quick online ordering with direct WhatsApp integration.",
-    images: [{ url: "/restaurant/media__1779443826967.jpg" }],
+    images: [{ url: "./restaurant/media__1779443826967.jpg" }],
   },
 };
 

@@ -149,7 +149,7 @@ export default function Home() {
               <div 
                 className="relative h-[450px] bg-cover bg-center rounded-3xl overflow-hidden shadow-2xl border border-gold-500/10 flex flex-col justify-end p-8"
                 style={{
-                  backgroundImage: "url('/restaurant/generated/cat_unlimited.png')",
+                  backgroundImage: "url('./restaurant/generated/cat_unlimited.png')",
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
@@ -242,16 +242,16 @@ export default function Home() {
             {menuData.categories.map((category) => {
               const isActive = activeCategory === category.id;
               const categoryImages: Record<string, string> = {
-                unlimited: "/restaurant/generated/cat_unlimited.png",
-                specials: "/restaurant/generated/cat_specials.png",
-                biryani: "/restaurant/generated/cat_biryani.png",
-                seafood: "/restaurant/generated/cat_seafood.png",
-                tandoori: "/restaurant/generated/cat_tandoori.png",
-                "nonveg-starters": "/restaurant/generated/cat_nonveg_starters.png",
-                "veg-starters": "/restaurant/generated/cat_veg_starters.png",
-                "veg-curries": "/restaurant/generated/cat_veg_curries.png",
-                "nonveg-curries": "/restaurant/generated/cat_nonveg_curries.png",
-                soups: "/restaurant/generated/cat_soups.png",
+                unlimited: "./restaurant/generated/cat_unlimited.png",
+                specials: "./restaurant/generated/cat_specials.png",
+                biryani: "./restaurant/generated/cat_biryani.png",
+                seafood: "./restaurant/generated/cat_seafood.png",
+                tandoori: "./restaurant/generated/cat_tandoori.png",
+                "nonveg-starters": "./restaurant/generated/cat_nonveg_starters.png",
+                "veg-starters": "./restaurant/generated/cat_veg_starters.png",
+                "veg-curries": "./restaurant/generated/cat_veg_curries.png",
+                "nonveg-curries": "./restaurant/generated/cat_nonveg_curries.png",
+                soups: "./restaurant/generated/cat_soups.png",
                 breads: "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80",
                 desserts: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
               };
@@ -295,16 +295,16 @@ export default function Home() {
               {menuData.categories.map((category) => {
                 const isActive = activeCategory === category.id;
                 const categoryImages: Record<string, string> = {
-                  unlimited: "/restaurant/generated/cat_unlimited.png",
-                  specials: "/restaurant/generated/cat_specials.png",
-                  biryani: "/restaurant/generated/cat_biryani.png",
-                  seafood: "/restaurant/generated/cat_seafood.png",
-                  tandoori: "/restaurant/generated/cat_tandoori.png",
-                  "nonveg-starters": "/restaurant/generated/cat_nonveg_starters.png",
-                  "veg-starters": "/restaurant/generated/cat_veg_starters.png",
-                  "veg-curries": "/restaurant/generated/cat_veg_curries.png",
-                  "nonveg-curries": "/restaurant/generated/cat_nonveg_curries.png",
-                  soups: "/restaurant/generated/cat_soups.png",
+                  unlimited: "./restaurant/generated/cat_unlimited.png",
+                  specials: "./restaurant/generated/cat_specials.png",
+                  biryani: "./restaurant/generated/cat_biryani.png",
+                  seafood: "./restaurant/generated/cat_seafood.png",
+                  tandoori: "./restaurant/generated/cat_tandoori.png",
+                  "nonveg-starters": "./restaurant/generated/cat_nonveg_starters.png",
+                  "veg-starters": "./restaurant/generated/cat_veg_starters.png",
+                  "veg-curries": "./restaurant/generated/cat_veg_curries.png",
+                  "nonveg-curries": "./restaurant/generated/cat_nonveg_curries.png",
+                  soups: "./restaurant/generated/cat_soups.png",
                   breads: "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80",
                   desserts: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
                 };
