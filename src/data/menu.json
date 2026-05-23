@@ -1,0 +1,1633 @@
+{
+  "restaurantName": "Hotel Nellore Royal",
+  "tagline": "Multi-Cuisine A/C Restaurant",
+  "phone": "+919515428438",
+  "owner": "Harish",
+  "location": "Near Brahmaiah Engineering College, Rajupalem, Nellore Highway Road",
+  "timings": "11:00 AM - 11:00 PM",
+  "categories": [
+    {
+      "id": "unlimited",
+      "name": "Unlimited Meals & Thalis",
+      "description": "Our legendary signature thalis. Feast like royalty with unlimited servings!",
+      "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "specials",
+      "name": "Nellore Royal Specials",
+      "description": "Authentic local delicacies crafted with traditional Nellore spices.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "biryani",
+      "name": "Biryanis (Veg & Non-Veg)",
+      "description": "Rich, aromatic, and cooked to perfection using aged Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "seafood",
+      "name": "Seafood Starters",
+      "description": "Fresh catch of the day, marinated in coastal spices and crisp-fried.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "tandoori",
+      "name": "Tandoori Starters",
+      "description": "Juicy clay-oven roasts served with fresh mint chutney.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "nonveg-starters",
+      "name": "Non-Veg Starters",
+      "description": "Premium chicken, mutton, and egg starters loaded with flavour.",
+      "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "veg-starters",
+      "name": "Veg Starters",
+      "description": "Crispy starters made of seasonal veggies, paneer, and mushrooms.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "veg-curries",
+      "name": "Veg Curries",
+      "description": "Rich and delicious gravies featuring soft paneer, cashews, and fresh greens.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "nonveg-curries",
+      "name": "Non-Veg Curries",
+      "description": "Tender chicken, juicy mutton, prawns, and fish simmered in flavorful Nellore gravies.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "soups",
+      "name": "Soups (Veg & Non-Veg)",
+      "description": "Warm, comforting starters to awaken your palate.",
+      "image": "https://images.unsplash.com/photo-1547592165-e1d17fed6006?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "breads",
+      "name": "Indian Breads",
+      "description": "Freshly baked naans, rotis, and layered parotas.",
+      "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts & Milkshakes",
+      "description": "Chilled shakes, premium ice creams, and loaded fruit salads.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "items": [
+    {
+      "id": "unl-1",
+      "category": "unlimited",
+      "name": "Unlimited Tiffins",
+      "price": 129,
+      "isVeg": true,
+      "isUnlimited": true,
+      "tag": "Morning Special",
+      "description": "Fluffy idlis, crispy vadas, melting pongal, and evergreen dosas served with premium filter coffee.",
+      "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "unl-2",
+      "category": "unlimited",
+      "name": "Unlimited South Indian Pure Veg Thali",
+      "price": 179,
+      "isVeg": true,
+      "isUnlimited": true,
+      "tag": "Local Favorite",
+      "description": "Traditional pure vegetarian thali with rice, sambar, rasam, curries, curd, sweet, and papad. A highway legend.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "unl-3",
+      "category": "unlimited",
+      "name": "Unlimited South Indian Non Veg Thali",
+      "price": 299,
+      "isVeg": false,
+      "isUnlimited": true,
+      "tag": "Chef Recommended",
+      "description": "Rich chicken curry, mutton gravy, rasam, sambar, rice, and traditional side dishes served unlimited to your satisfaction.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "unl-4",
+      "category": "unlimited",
+      "name": "Unlimited South Indian Jumbo Non Veg Thali",
+      "price": 499,
+      "isVeg": false,
+      "isUnlimited": true,
+      "tag": "Grand Feast",
+      "description": "Luxurious non-veg thali including Chicken Dum Biryani, Mutton Curry, Apollo Fish, Prawns, curds, sweets, and limitless rice.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "unl-5",
+      "category": "unlimited",
+      "name": "North Indian Thali",
+      "price": 249,
+      "isVeg": true,
+      "isUnlimited": true,
+      "tag": "Deluxe Edition",
+      "description": "Rich north Indian curries, paneer masala, butter tandoori rotis, fragrant jeera rice, sweet gulab jamun, papad, and raita.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-1",
+      "category": "specials",
+      "name": "Ragimudda",
+      "price": 100,
+      "isVeg": true,
+      "tag": "Healthy Heritage",
+      "description": "Nutritious and traditional finger millet balls, perfectly paired with spicy local gravies.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-2",
+      "category": "specials",
+      "name": "Natukodi Pulusu",
+      "price": 300,
+      "isVeg": false,
+      "tag": "Spicy Nellore Classic",
+      "description": "Country chicken simmered in a highly aromatic, fiery, and tangy traditional Nellore gravy.",
+      "image": "https://images.unsplash.com/photo-1618449840665-9ed506d73a34?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-3",
+      "category": "specials",
+      "name": "Koramenu Pulusu",
+      "price": 380,
+      "isVeg": false,
+      "tag": "Seafood Premium",
+      "description": "Freshwater Murrel fish cooked to perfection in a raw-mango infused spicy tamarind gravy.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-4",
+      "category": "specials",
+      "name": "Bommidayi Pulusu",
+      "price": 380,
+      "isVeg": false,
+      "tag": "Local Delicacy",
+      "description": "Traditional Nellore fish curry prepared using fresh Bommidayilu fish in a thick spicy gravy.",
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-5",
+      "category": "specials",
+      "name": "Gandi / Boccha Pulusu",
+      "price": 280,
+      "isVeg": false,
+      "tag": "Daily Special",
+      "description": "Catla fish pieces cooked in standard Nellore-style tamarind and yellow-chilli base.",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-6",
+      "category": "specials",
+      "name": "Sanna Chepala Pulusu",
+      "price": 300,
+      "isVeg": false,
+      "tag": "Traditional Cook",
+      "description": "Tangy and hot small-fish curry prepared in a clay pot, Nellore highway style.",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-7",
+      "category": "specials",
+      "name": "Nellore Spl. Chi. Dum Biryani",
+      "price": 300,
+      "isVeg": false,
+      "tag": "Signature Dum",
+      "description": "Fragrant long-grain Basmati rice layered with Nellore spice-marinated chicken, slow-cooked in a sealed handi.",
+      "image": "https://images.unsplash.com/photo-1642821373181-696a54913e93?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sp-8",
+      "category": "specials",
+      "name": "Nellore Spl. Mut. Dum Biryani",
+      "price": 400,
+      "isVeg": false,
+      "tag": "Royal Mutton Dum",
+      "description": "Richly spiced premium mutton pieces layered with saffron Basmati rice. Highly aromatic and satisfying.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-1",
+      "category": "biryani",
+      "name": "Veg Biryani",
+      "price": 180,
+      "isVeg": true,
+      "tag": "",
+      "description": "Seasonal garden-fresh vegetables layered with spices and slow-cooked Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-2",
+      "category": "biryani",
+      "name": "Spl. Veg Biryani",
+      "price": 220,
+      "isVeg": true,
+      "tag": "",
+      "description": "Richly textured biryani loaded with premium nuts, spices, and paneer cubes.",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-3",
+      "category": "biryani",
+      "name": "Mushroom Biryani",
+      "price": 220,
+      "isVeg": true,
+      "tag": "",
+      "description": "Juicy button mushrooms marinated in tandoori spices and cooked with Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1642821373181-696a54913e93?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-4",
+      "category": "biryani",
+      "name": "Paneer Biryani",
+      "price": 230,
+      "isVeg": true,
+      "tag": "",
+      "description": "Fresh, soft paneer cubes marinated in spices and layered with aromatic Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1637806930600-37fa81148568?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-5",
+      "category": "biryani",
+      "name": "Kaju Biryani",
+      "price": 260,
+      "isVeg": true,
+      "tag": "",
+      "description": "Premium whole cashews fried in pure ghee and slow-cooked with spiced biryani rice.",
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-6",
+      "category": "biryani",
+      "name": "Gongura Veg Biryani",
+      "price": 220,
+      "isVeg": true,
+      "tag": "",
+      "description": "Tangy Sorrel leaf paste combined with fragrant garden veggies and spiced rice.",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-7",
+      "category": "biryani",
+      "name": "Mixed Veg Biryani",
+      "price": 250,
+      "isVeg": true,
+      "tag": "",
+      "description": "High-end assortment of baby corn, paneer, mushroom, and green peas biryani.",
+      "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-8",
+      "category": "biryani",
+      "name": "Jeera Rice",
+      "price": 160,
+      "isVeg": true,
+      "tag": "",
+      "description": "Aromatic Basmati rice tempered with cumin seeds and pure ghee.",
+      "image": "https://images.unsplash.com/photo-1645177625172-13233c467a80?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-9",
+      "category": "biryani",
+      "name": "Curd Rice",
+      "price": 100,
+      "isVeg": true,
+      "tag": "",
+      "description": "Cool, comforting rice mixed with fresh yogurt and tempered with mustard seeds and curry leaves.",
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-10",
+      "category": "biryani",
+      "name": "Chicken Dum Biryani",
+      "price": 250,
+      "isVeg": false,
+      "tag": "Best Seller",
+      "description": "Classic slow-cooked Hyderabadi styled chicken dum biryani, served with raita and salan.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-11",
+      "category": "biryani",
+      "name": "Chicken Fry Piece Biryani",
+      "price": 270,
+      "isVeg": false,
+      "tag": "Best Seller",
+      "description": "Spicy, crispy fried chicken pieces layered over beautifully cooked flavored biryani rice.",
+      "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-12",
+      "category": "biryani",
+      "name": "Gongura Chicken Biryani",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Tangy sorrel leaf (Gongura) chicken paste mixed into long-grain aromatic biryani rice.",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-13",
+      "category": "biryani",
+      "name": "Mogalai Chicken Biryani",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Rich, royal biryani infused with cream, eggs, dry fruits, and Mughlai spices.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-14",
+      "category": "biryani",
+      "name": "Leg Piece Biryani",
+      "price": 260,
+      "isVeg": false,
+      "tag": "",
+      "description": "Spiced whole chicken leg pieces slow-baked with flavorful saffron rice.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-15",
+      "category": "biryani",
+      "name": "Chicken Lollypop Biryani",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy seasoned chicken lollipops layered over fragrant biryani rice.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-16",
+      "category": "biryani",
+      "name": "Natukodi Biryani",
+      "price": 380,
+      "isVeg": false,
+      "tag": "",
+      "description": "Spicy country chicken (Natukodi) layered with traditional aromatic Seeraga Samba or Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-17",
+      "category": "biryani",
+      "name": "Mutton Dum Biryani",
+      "price": 350,
+      "isVeg": false,
+      "tag": "Best Seller",
+      "description": "Aromatic Basmati rice slow-cooked with tender, melt-in-the-mouth mutton pieces.",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-18",
+      "category": "biryani",
+      "name": "Mutton Fry Piece Biryani",
+      "price": 400,
+      "isVeg": false,
+      "tag": "Best Seller",
+      "description": "Spicy pan-roasted mutton pieces combined with our signature flavored biryani rice.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-19",
+      "category": "biryani",
+      "name": "Gongura Mutton Biryani",
+      "price": 400,
+      "isVeg": false,
+      "tag": "",
+      "description": "Distinctive Andhra speciality where tangy Gongura mutton is combined with premium biryani rice.",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-20",
+      "category": "biryani",
+      "name": "Mogalai Mutton Biryani",
+      "price": 400,
+      "isVeg": false,
+      "tag": "",
+      "description": "Rich, Mughlai-style mutton biryani garnished with cream, nuts, and boiled eggs.",
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-21",
+      "category": "biryani",
+      "name": "Mutton Keema Biryani",
+      "price": 400,
+      "isVeg": false,
+      "tag": "",
+      "description": "Minced, spiced mutton cooked together with aromatic long-grain Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-22",
+      "category": "biryani",
+      "name": "Prawns Biryani",
+      "price": 380,
+      "isVeg": false,
+      "tag": "",
+      "description": "Delicate highway coastal prawns sautéed in secret biryani spices and slow-cooked with saffron rice.",
+      "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "by-23",
+      "category": "biryani",
+      "name": "Egg Biryani",
+      "price": 180,
+      "isVeg": false,
+      "tag": "",
+      "description": "Boiled eggs tossed in direct pan-fry masala and layered with Basmati rice.",
+      "image": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b4?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-1",
+      "category": "seafood",
+      "name": "Apollo Fish",
+      "price": 300,
+      "isVeg": false,
+      "tag": "Must Try",
+      "description": "Boneless fish fillets battered, crisp-fried, and tossed in a spicy, garlic-yogurt glaze.",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-2",
+      "category": "seafood",
+      "name": "Fish Roast B/L",
+      "price": 320,
+      "isVeg": false,
+      "tag": "",
+      "description": "Tender boneless fish pieces roasted in a thick pan-fry Nellore masala.",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-3",
+      "category": "seafood",
+      "name": "Chilli Fish",
+      "price": 320,
+      "isVeg": false,
+      "tag": "Spicy Hot",
+      "description": "Crispy fried fish chunks tossed with green chilies, onions, bell peppers, and hot chili sauce.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-4",
+      "category": "seafood",
+      "name": "Loose Frans",
+      "price": 380,
+      "isVeg": false,
+      "tag": "Crispy Prawns",
+      "description": "Crunchy batter-fried loose prawns tossed in red chili, garlic, and fresh spring onion.",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-5",
+      "category": "seafood",
+      "name": "Prawns Roast",
+      "price": 380,
+      "isVeg": false,
+      "tag": "Pan Sautéed",
+      "description": "Freshwater prawns roasted in butter and spices, served with fresh coriander.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "sf-6",
+      "category": "seafood",
+      "name": "Garlic Prawns",
+      "price": 380,
+      "isVeg": false,
+      "tag": "",
+      "description": "Juicy prawns roasted in rich butter, loaded with minced garlic and herbs.",
+      "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-1",
+      "category": "tandoori",
+      "name": "Tandoori Chicken Full",
+      "price": 550,
+      "isVeg": false,
+      "tag": "Clay Oven Legend",
+      "description": "Whole chicken marinated in yogurt, Kashmiri red chilies, and clay-oven roasted to smoky perfection.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-2",
+      "category": "tandoori",
+      "name": "Tandoori Chicken Half",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Half chicken slow-roasted in the clay oven, served with sliced onions and lime.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-3",
+      "category": "tandoori",
+      "name": "Tangadi Kabab",
+      "price": 400,
+      "isVeg": false,
+      "tag": "Juicy Drumsticks",
+      "description": "Plump chicken drumsticks marinated in a rich cream-cheese-spice blend and char-grilled.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-4",
+      "category": "tandoori",
+      "name": "Malai Kabab",
+      "price": 350,
+      "isVeg": false,
+      "tag": "",
+      "description": "Boneless chicken cubes marinated in a white cream, cheese, and cardamom paste, roasted tender.",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-5",
+      "category": "tandoori",
+      "name": "Chiken Tikka",
+      "price": 350,
+      "isVeg": false,
+      "tag": "Smoky Hot",
+      "description": "Boneless chicken cubes marinated in spicy red yogurt marinade, skewered and coal-roasted.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-6",
+      "category": "tandoori",
+      "name": "Fish Tikka",
+      "price": 360,
+      "isVeg": false,
+      "tag": "",
+      "description": "Smoky fish fillets marinated in mustard oil, ajwain, and yogurt, clay-roasted.",
+      "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-7",
+      "category": "tandoori",
+      "name": "Reshmi Kabab",
+      "price": 380,
+      "isVeg": false,
+      "tag": "",
+      "description": "Minced chicken skewers flavored with garlic, ginger, fresh mint, and grilled over coal.",
+      "image": "https://images.unsplash.com/photo-1625944525533-473f8a335f2c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "td-8",
+      "category": "tandoori",
+      "name": "Paneer Tikka",
+      "price": 300,
+      "isVeg": true,
+      "tag": "",
+      "description": "Fresh cottage cheese blocks skewered with bell peppers and onions, grilled with spices.",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-1",
+      "category": "nonveg-starters",
+      "name": "Chicken Lollypop",
+      "price": 280,
+      "isVeg": false,
+      "tag": "Kid's Favorite",
+      "description": "Classic chicken wings shaped into lollipops, fried crispy, and tossed in spicy Szechuan sauce.",
+      "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-2",
+      "category": "nonveg-starters",
+      "name": "Chicken Manchurian",
+      "price": 280,
+      "isVeg": false,
+      "tag": "",
+      "description": "Golden chicken nuggets tossed in sweet, sour, and tangy Manchurian glaze.",
+      "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-3",
+      "category": "nonveg-starters",
+      "name": "Chilli Chicken",
+      "price": 280,
+      "isVeg": false,
+      "tag": "Highway Classic",
+      "description": "All-time favorite dry chicken strips sautéed with fresh green chilies, onions, and soy sauce.",
+      "image": "https://images.unsplash.com/photo-1627662236973-4f8259fa2441?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-4",
+      "category": "nonveg-starters",
+      "name": "Chicken 65",
+      "price": 280,
+      "isVeg": false,
+      "tag": "Crispy Delight",
+      "description": "Spicy deep-fried chicken cubes tossed in fresh curry leaves, yogurt, and spices.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-5",
+      "category": "nonveg-starters",
+      "name": "Chicken Drumstick",
+      "price": 280,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy breaded chicken drumsticks seasoned with local herbs and fried golden.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-6",
+      "category": "nonveg-starters",
+      "name": "Dragon Chicken",
+      "price": 280,
+      "isVeg": false,
+      "tag": "Highly Ordered",
+      "description": "Crispy chicken strips tossed in a fiery sweet-and-spicy sauce with cashew nuts.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-7",
+      "category": "nonveg-starters",
+      "name": "Sezwan Chicken",
+      "price": 280,
+      "isVeg": false,
+      "tag": "",
+      "description": "Fiery dry chicken cubes tossed in a bold and spicy garlic-Szechuan sauce.",
+      "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-8",
+      "category": "nonveg-starters",
+      "name": "Chicken Majestic",
+      "price": 300,
+      "isVeg": false,
+      "tag": "Andhra Special",
+      "description": "Dry chicken strips marinated in yogurt and cornstarch, stir-fried with green chilies and mint.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-9",
+      "category": "nonveg-starters",
+      "name": "Garlic Chicken",
+      "price": 280,
+      "isVeg": false,
+      "tag": "",
+      "description": "Sautéed chicken chunks loaded with golden minced garlic, black pepper, and coriander.",
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-10",
+      "category": "nonveg-starters",
+      "name": "Sanghai Chicken",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy chicken tossed in sweet chili, sesame seeds, and topped with spring onions.",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-11",
+      "category": "nonveg-starters",
+      "name": "Chicken 88",
+      "price": 280,
+      "isVeg": false,
+      "tag": "House Special",
+      "description": "Stir-fried chef special dry chicken loaded with rich highway secret red spice mix.",
+      "image": "https://images.unsplash.com/photo-1615557960901-d29348636ac2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-12",
+      "category": "nonveg-starters",
+      "name": "Kaju Chicken Dry",
+      "price": 320,
+      "isVeg": false,
+      "tag": "",
+      "description": "Rich chicken pieces stir-fried with plenty of roasted whole cashew nuts and green onions.",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-13",
+      "category": "nonveg-starters",
+      "name": "Chicken Fry / Roast B/N",
+      "price": 260,
+      "isVeg": false,
+      "tag": "",
+      "description": "Bone-in chicken slow-cooked with fresh local spices and roasted dry on a iron griddle.",
+      "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-14",
+      "category": "nonveg-starters",
+      "name": "Chicken Fry / Roast B/L",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Tender boneless chicken roasted with deep local spices, curry leaves, and black pepper.",
+      "image": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-15",
+      "category": "nonveg-starters",
+      "name": "Natukodi Fry / Roast",
+      "price": 350,
+      "isVeg": false,
+      "tag": "Fiery Local",
+      "description": "Tough country chicken slow-cooked with dry-ground spices and roasted to a deep spicy dry-finish.",
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-16",
+      "category": "nonveg-starters",
+      "name": "Pepper Chicken",
+      "price": 300,
+      "isVeg": false,
+      "tag": "",
+      "description": "Stir-fried chicken pieces heavily tossed in freshly ground black pepper, onions, and curry leaves.",
+      "image": "https://images.unsplash.com/photo-1560684352-8497838a2229?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-17",
+      "category": "nonveg-starters",
+      "name": "Stick Chicken",
+      "price": 320,
+      "isVeg": false,
+      "tag": "",
+      "description": "Skewered chicken breast pieces marinated in spices, battered, and deep-fried crispy.",
+      "image": "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-18",
+      "category": "nonveg-starters",
+      "name": "Chicken 555",
+      "price": 320,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy, ribbon-cut chicken tossed in a rich yogurt-based red cashew sauce.",
+      "image": "https://images.unsplash.com/photo-1541014741259-df5290dbf2a7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-19",
+      "category": "nonveg-starters",
+      "name": "Lemon Chicken Dry",
+      "price": 330,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy chicken chunks tossed in a refreshing, tangy lemon glaze with green chilies.",
+      "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-20",
+      "category": "nonveg-starters",
+      "name": "Mutton Fry / Roast",
+      "price": 400,
+      "isVeg": false,
+      "tag": "Highly Recommended",
+      "description": "Tender mutton pieces pan-fried with caramelized onions, curry leaves, and black pepper.",
+      "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-21",
+      "category": "nonveg-starters",
+      "name": "Pepper Mutton",
+      "price": 400,
+      "isVeg": false,
+      "tag": "",
+      "description": "Juicy mutton chunks pan-roasted with plenty of hot crushed black peppercorns.",
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-22",
+      "category": "nonveg-starters",
+      "name": "Chilli Mutton",
+      "price": 400,
+      "isVeg": false,
+      "tag": "",
+      "description": "Crispy fried mutton chunks sautéed with green bell peppers, onions, and soy-chili sauce.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-23",
+      "category": "nonveg-starters",
+      "name": "Mutton Keema Balls",
+      "price": 430,
+      "isVeg": false,
+      "tag": "Authentic Craft",
+      "description": "Deep-fried spiced minced mutton balls, crispy outside and incredibly juicy inside.",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-24",
+      "category": "nonveg-starters",
+      "name": "Egg Fry / Roast",
+      "price": 180,
+      "isVeg": false,
+      "tag": "",
+      "description": "Boiled eggs shallow fried with green chilies, curry leaves, and basic spices.",
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-25",
+      "category": "nonveg-starters",
+      "name": "Chilli Egg",
+      "price": 200,
+      "isVeg": false,
+      "tag": "",
+      "description": "Battered and fried boiled eggs tossed in spicy Indo-Chinese chilli glaze.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-26",
+      "category": "nonveg-starters",
+      "name": "Egg Manchurian",
+      "price": 200,
+      "isVeg": false,
+      "tag": "",
+      "description": "Fried egg halves sautéed in sweet-and-tangy Chinese soy-garlic sauce.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nv-27",
+      "category": "nonveg-starters",
+      "name": "Egg 65",
+      "price": 200,
+      "isVeg": false,
+      "tag": "",
+      "description": "Spicy deep-fried egg cubes tossed in dynamic curry leaves and red chili paste.",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-1",
+      "category": "veg-starters",
+      "name": "Veg Manchurian",
+      "price": 200,
+      "isVeg": true,
+      "description": "Garden fresh vegetable balls fried golden and tossed in hot ginger-soy glaze.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-2",
+      "category": "veg-starters",
+      "name": "Veg Chilli",
+      "price": 200,
+      "isVeg": true,
+      "description": "Stir-fried seasonal greens, bell peppers, and baby corn tossed in soy-chili sauce.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-3",
+      "category": "veg-starters",
+      "name": "Veg 65",
+      "price": 200,
+      "isVeg": true,
+      "description": "Deep-fried vegetable pieces tossed in curds, curry leaves, and spicy red masala.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-4",
+      "category": "veg-starters",
+      "name": "Gobi Manchurian",
+      "price": 220,
+      "isVeg": true,
+      "description": "Crispy cauliflower florets glazed in a sweet-and-sour Chinese sauce.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-5",
+      "category": "veg-starters",
+      "name": "Gobi Chilli",
+      "price": 220,
+      "isVeg": true,
+      "description": "Spicy pan-sautéed cauliflower tossed with fresh green chilies and bell peppers.",
+      "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-6",
+      "category": "veg-starters",
+      "name": "Gobi 65",
+      "price": 220,
+      "isVeg": true,
+      "description": "Deep-fried cauliflower florets coated in local red spices and tossed with curry leaves.",
+      "image": "https://images.unsplash.com/photo-1627662236973-4f8259fa2441?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-7",
+      "category": "veg-starters",
+      "name": "Babycorn Manchurian",
+      "price": 230,
+      "isVeg": true,
+      "description": "Crispy baby corn rounds sautéed in sweet-tangy ginger-soy sauce.",
+      "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-8",
+      "category": "veg-starters",
+      "name": "Babycorn Chilli",
+      "price": 230,
+      "isVeg": true,
+      "description": "Pan-fried crispy baby corn strips tossed with hot green chilies and spring onion.",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-9",
+      "category": "veg-starters",
+      "name": "Babycorn 65",
+      "price": 230,
+      "isVeg": true,
+      "description": "Golden fried baby corn fingers tossed in spicy yogurt-chili seasoning.",
+      "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-10",
+      "category": "veg-starters",
+      "name": "Aalu Manchurian",
+      "price": 200,
+      "isVeg": true,
+      "description": "Crispy potato wedges tossed in standard soy-ginger Manchurian base.",
+      "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-11",
+      "category": "veg-starters",
+      "name": "Aalu Chilli",
+      "price": 200,
+      "isVeg": true,
+      "description": "Deep-fried potato chunks stir-fried with green chilies and capsicum.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-12",
+      "category": "veg-starters",
+      "name": "Aalu 65",
+      "price": 200,
+      "isVeg": true,
+      "description": "Crisp potato bites tossed in spicy yogurt, mustard seeds, and curry leaves.",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-13",
+      "category": "veg-starters",
+      "name": "Mushroom Manchurian",
+      "price": 250,
+      "isVeg": true,
+      "description": "Fresh button mushrooms coated, fried, and glazed in Chinese soy-garlic paste.",
+      "image": "https://images.unsplash.com/photo-1604909552236-eb19da31025a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-14",
+      "category": "veg-starters",
+      "name": "Mushroom Chilli",
+      "price": 250,
+      "isVeg": true,
+      "description": "Juicy mushrooms sautéed with dark soy, fresh garlic, and bell peppers.",
+      "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-15",
+      "category": "veg-starters",
+      "name": "Mushroom 65",
+      "price": 250,
+      "isVeg": true,
+      "description": "Crispy batter-fried mushrooms tossed in fiery red southern spice mix.",
+      "image": "https://images.unsplash.com/photo-1560684352-8497838a2229?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-16",
+      "category": "veg-starters",
+      "name": "Paneer Manchurian",
+      "price": 250,
+      "isVeg": true,
+      "description": "Soft cottage cheese blocks stir-fried in thick sweet-sour Manchurian sauce.",
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-17",
+      "category": "veg-starters",
+      "name": "Paneer Chilli",
+      "price": 250,
+      "isVeg": true,
+      "description": "Evergreen paneer cubes tossed with onions, green chilies, and soy sauce.",
+      "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vs-18",
+      "category": "veg-starters",
+      "name": "Paneer 65",
+      "price": 250,
+      "isVeg": true,
+      "description": "Deep-fried soft paneer cubes tossed in rich curry leaves and red yogurt paste.",
+      "image": "https://images.unsplash.com/photo-1625944525533-473f8a335f2c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-1",
+      "category": "veg-curries",
+      "name": "Paneer Butter Masala",
+      "price": 250,
+      "isVeg": true,
+      "description": "Cottage cheese simmered in a rich, buttery, and creamy red tomato gravy. Absolute favorite.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-2",
+      "category": "veg-curries",
+      "name": "Methi Chaman",
+      "price": 260,
+      "isVeg": true,
+      "description": "Traditional Kashmiri vegetarian dish made of paneer cubes and plenty of fresh fenugreek leaves.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-3",
+      "category": "veg-curries",
+      "name": "Palak Paneer",
+      "price": 260,
+      "isVeg": true,
+      "description": "Classic dish featuring soft paneer blocks in a thick, smooth, and healthy spinach purée.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-4",
+      "category": "veg-curries",
+      "name": "Tomato Curry",
+      "price": 200,
+      "isVeg": true,
+      "description": "Tangy and sweet tomato base cooked with local tempering, dynamic with rotis.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-5",
+      "category": "veg-curries",
+      "name": "Plain Palak",
+      "price": 200,
+      "isVeg": true,
+      "description": "Smooth and simple seasoned spinach purée, cooked with butter and garlic.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-6",
+      "category": "veg-curries",
+      "name": "Kaju Curry",
+      "price": 300,
+      "isVeg": true,
+      "description": "Rich royal gravy loaded with roasted whole cashews in a creamy onion-tomato base.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-7",
+      "category": "veg-curries",
+      "name": "Dal Tadka",
+      "price": 200,
+      "isVeg": true,
+      "description": "Yellow lentils cooked soft and tempered with cumin seeds, garlic, red chilies, and ghee.",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-8",
+      "category": "veg-curries",
+      "name": "Veg Kolhapuri",
+      "price": 200,
+      "isVeg": true,
+      "description": "Highly spicy mixed vegetable curry prepared in bold Kolhapuri red-chili paste.",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-9",
+      "category": "veg-curries",
+      "name": "Kadai Veg",
+      "price": 220,
+      "isVeg": true,
+      "description": "Garden fresh vegetables cooked together in a thick iron kadai with freshly pounded spices.",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-10",
+      "category": "veg-curries",
+      "name": "Veg Chatpat",
+      "price": 220,
+      "isVeg": true,
+      "description": "Tangy, spicy, and sour mixed vegetable curry loaded with local chatpata seasonings.",
+      "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-11",
+      "category": "veg-curries",
+      "name": "Mushroom Masala",
+      "price": 250,
+      "isVeg": true,
+      "description": "Juicy button mushrooms simmered in a rich, semi-dry onion and tomato masala.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-12",
+      "category": "veg-curries",
+      "name": "Kaju Paneer Curry",
+      "price": 300,
+      "isVeg": true,
+      "description": "Luxurious combination of fried whole cashews and soft paneer cubes in thick creamy gravy.",
+      "image": "https://images.unsplash.com/photo-1631515243361-c5989f61d8f1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-13",
+      "category": "veg-curries",
+      "name": "Aalu Gobi Curry",
+      "price": 220,
+      "isVeg": true,
+      "description": "Evergreen comforting combination of potato chunks and cauliflower florets in mild gravy.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-14",
+      "category": "veg-curries",
+      "name": "Malai Kofta",
+      "price": 280,
+      "isVeg": true,
+      "description": "Deep-fried paneer-potato dumplings simmered in rich, sweetish, and highly creamy cashew gravy.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "vc-15",
+      "category": "veg-curries",
+      "name": "Babycorn Masala",
+      "price": 220,
+      "isVeg": true,
+      "description": "Crispy baby corn rounds cooked in a highly seasoned and thick onion-tomato gravy.",
+      "image": "https://images.unsplash.com/photo-1598214886806-c87b2a370944?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-1",
+      "category": "nonveg-curries",
+      "name": "Chicken Curry or Masala B/N",
+      "price": 250,
+      "isVeg": false,
+      "description": "Classic bone-in chicken slow-cooked in traditional spiced highway onion gravy.",
+      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-2",
+      "category": "nonveg-curries",
+      "name": "Chicken Curry or Masala B/L",
+      "price": 270,
+      "isVeg": false,
+      "description": "Tender boneless chicken pieces simmered in thick tomato-onion masala gravy.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-3",
+      "category": "nonveg-curries",
+      "name": "Chicken Rajasthan B/N",
+      "price": 270,
+      "isVeg": false,
+      "description": "Spicy chicken pieces slow-cooked with whole red chilies, garlic, and Rajasthani hot spices.",
+      "image": "https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-4",
+      "category": "nonveg-curries",
+      "name": "Chicken Rajasthan B/L",
+      "price": 270,
+      "isVeg": false,
+      "description": "Boneless juicy chicken simmered in red-chili base with rich texture.",
+      "image": "https://images.unsplash.com/photo-1618449840665-9ed506d73a34?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-5",
+      "category": "nonveg-curries",
+      "name": "Chicken Maharaja",
+      "price": 290,
+      "isVeg": false,
+      "description": "Royal chicken curry prepared with cream, eggs, roasted nuts, and mild aromatic spices.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-6",
+      "category": "nonveg-curries",
+      "name": "Afgani Chicken",
+      "price": 290,
+      "isVeg": false,
+      "description": "Tender chicken simmered in rich green mint-coriander and thick cashew gravy.",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-7",
+      "category": "nonveg-curries",
+      "name": "Chicken Kolhapuri B/N",
+      "price": 270,
+      "isVeg": false,
+      "description": "Fiery bone-in chicken cooked in authentic spicy Maharashtrian red masala.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-8",
+      "category": "nonveg-curries",
+      "name": "Chicken Kolhapuri B/L",
+      "price": 290,
+      "isVeg": false,
+      "description": "Extra-hot boneless chicken cubes simmered in bold Kolhapuri spice paste.",
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-9",
+      "category": "nonveg-curries",
+      "name": "Butter Chicken",
+      "price": 290,
+      "isVeg": false,
+      "description": "Tandoori chicken shreds simmered in a velvety, buttery tomato gravy loaded with cream.",
+      "image": "https://images.unsplash.com/photo-1645177625172-13233c467a80?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-10",
+      "category": "nonveg-curries",
+      "name": "Ginger Chicken",
+      "price": 290,
+      "isVeg": false,
+      "description": "Pan-fry chicken curry dominated by fresh julienned ginger, green chilies, and coriander.",
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-11",
+      "category": "nonveg-curries",
+      "name": "Garlic Chicken",
+      "price": 290,
+      "isVeg": false,
+      "description": "Tender chicken chunks slow-cooked in dynamic garlic paste and basic hot spices.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-12",
+      "category": "nonveg-curries",
+      "name": "Mughlai Chicken Curry",
+      "price": 270,
+      "isVeg": false,
+      "description": "Rich Mughlai styled gravy with a creamy base, thick texture, and scrambled eggs.",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-13",
+      "category": "nonveg-curries",
+      "name": "Kaju Chicken Curry",
+      "price": 320,
+      "isVeg": false,
+      "description": "Superb combination of tender chicken and ghee-fried cashews in rich gold curry.",
+      "image": "https://images.unsplash.com/photo-1642821373181-696a54913e93?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-14",
+      "category": "nonveg-curries",
+      "name": "Chicken Tikka Masala",
+      "price": 270,
+      "isVeg": false,
+      "description": "Smoky tandoori chicken tikka cubes simmered in a rich bell pepper and onion gravy.",
+      "image": "https://images.unsplash.com/photo-1637806930600-37fa81148568?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-15",
+      "category": "nonveg-curries",
+      "name": "Egg Keema Curry",
+      "price": 170,
+      "isVeg": true,
+      "description": "Finely shredded boiled eggs cooked in a hot, thick southern dry-masala gravy.",
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-16",
+      "category": "nonveg-curries",
+      "name": "Murgh Masala",
+      "price": 370,
+      "isVeg": false,
+      "description": "Spicy and thick chef special chicken curry loaded with minced chicken gravy and boiled egg.",
+      "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-17",
+      "category": "nonveg-curries",
+      "name": "Muntha Chicken",
+      "price": 370,
+      "isVeg": false,
+      "description": "Authentic roadside highway style country chicken slow-simmered in clay handi.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-18",
+      "category": "nonveg-curries",
+      "name": "Mutton Rogan Josh",
+      "price": 370,
+      "isVeg": false,
+      "description": "Classic Kashmiri lamb curry with deep red gravy cooked with alkanet root and local spices.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-19",
+      "category": "nonveg-curries",
+      "name": "Mutton Pulusu B/N",
+      "price": 370,
+      "isVeg": false,
+      "description": "Traditional bone-in mutton slow-cooked in highly fiery and tangy Nellore tamarind gravy.",
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-20",
+      "category": "nonveg-curries",
+      "name": "Gongura Mutton Curry",
+      "price": 400,
+      "isVeg": false,
+      "description": "Distinctive Andhra delicacy featuring tender lamb chunks cooked with sour sorrel leaves.",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-21",
+      "category": "nonveg-curries",
+      "name": "Mutton Curry or Masala B/N",
+      "price": 350,
+      "isVeg": false,
+      "description": "Classic bone-in mutton slow-simmered in basic spices and onion-tomato gravy.",
+      "image": "https://images.unsplash.com/photo-1631515243361-c5989f61d8f1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-22",
+      "category": "nonveg-curries",
+      "name": "Mutton Curry or Masala B/L",
+      "price": 370,
+      "isVeg": false,
+      "description": "Super-tender boneless lamb pieces cooked in a thick spiced highway gravy.",
+      "image": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-23",
+      "category": "nonveg-curries",
+      "name": "Prawns Curry",
+      "price": 370,
+      "isVeg": false,
+      "description": "Delicate prawns simmered in coastal spiced coconut and raw-mango tamarind gravy.",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "nvc-24",
+      "category": "nonveg-curries",
+      "name": "Fish Masala",
+      "price": 370,
+      "isVeg": false,
+      "description": "Steaming freshwater fish cutlets cooked in rich hot tamarind Nellore highway style gravy.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "so-1",
+      "category": "soups",
+      "name": "Veg Sweet Corn Soup",
+      "price": 120,
+      "isVeg": true,
+      "description": "A thick, soothing soup loaded with sweet corn kernels and finely chopped vegetables.",
+      "image": "https://images.unsplash.com/photo-1547592165-e1d17fed6006?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "so-2",
+      "category": "soups",
+      "name": "Chicken Hot & Sour Soup",
+      "price": 150,
+      "isVeg": false,
+      "description": "A spicy and tangy broth loaded with shredded chicken, bamboo shoots, and mushrooms.",
+      "image": "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-1",
+      "category": "breads",
+      "name": "Pulka",
+      "price": 25,
+      "isVeg": true,
+      "description": "Thin, soft whole-wheat flatbread cooked directly on open flame.",
+      "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-2",
+      "category": "breads",
+      "name": "Roti",
+      "price": 50,
+      "isVeg": true,
+      "description": "Traditional whole wheat tandoor baked bread.",
+      "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-3",
+      "category": "breads",
+      "name": "Butter Roti",
+      "price": 70,
+      "isVeg": true,
+      "description": "Tandoor-baked whole wheat flatbread brushed with pure melted butter.",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-4",
+      "category": "breads",
+      "name": "Plain Naan",
+      "price": 60,
+      "isVeg": true,
+      "description": "Clay-oven baked soft refined-flour leavened flatbread.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-5",
+      "category": "breads",
+      "name": "Butter Naan",
+      "price": 80,
+      "isVeg": true,
+      "description": "Leavened fine-flour bread baked in the clay oven, glazed generously with butter.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-6",
+      "category": "breads",
+      "name": "Garlic Naan",
+      "price": 100,
+      "isVeg": true,
+      "description": "Soft naan topped with minced fresh garlic and coriander leaves.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-7",
+      "category": "breads",
+      "name": "Kulcha",
+      "price": 100,
+      "isVeg": true,
+      "description": "Soft clay oven baked leavened bread, fluffy and rich.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-8",
+      "category": "breads",
+      "name": "Chicken Keema Naan",
+      "price": 120,
+      "isVeg": false,
+      "description": "Delightful naan stuffed with spiced minced chicken, baked in tandoor.",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-9",
+      "category": "breads",
+      "name": "Mutton Keema Naan",
+      "price": 150,
+      "isVeg": false,
+      "description": "Smoky tandoor naan stuffed with rich spiced minced lamb.",
+      "image": "https://images.unsplash.com/photo-1541014741259-df5290dbf2a7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-10",
+      "category": "breads",
+      "name": "Butter Kulcha",
+      "price": 80,
+      "isVeg": true,
+      "description": "Tandoor kulcha glazed generously with melted butter.",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-11",
+      "category": "breads",
+      "name": "Stuffed Kulcha",
+      "price": 80,
+      "isVeg": true,
+      "description": "Leavened flatbread stuffed with spiced potatoes, paneer, and onion.",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-12",
+      "category": "breads",
+      "name": "Lacha Parota",
+      "price": 70,
+      "isVeg": true,
+      "description": "Layered, flaky, and crispy refined-flour highway parotta.",
+      "image": "https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-13",
+      "category": "breads",
+      "name": "Aalu Parota",
+      "price": 70,
+      "isVeg": true,
+      "description": "Crispy wheat bread stuffed with spiced mashed potatoes.",
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "br-14",
+      "category": "breads",
+      "name": "Pudina Parota",
+      "price": 60,
+      "isVeg": true,
+      "description": "Multi-layered parotta topped with fresh dry mint leaves and butter.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-1",
+      "category": "desserts",
+      "name": "Vanilla Ice Cream",
+      "price": 90,
+      "isVeg": true,
+      "description": "Smooth and premium sweet classic vanilla bean ice cream scoop.",
+      "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-2",
+      "category": "desserts",
+      "name": "Butterscotch Ice Cream",
+      "price": 120,
+      "isVeg": true,
+      "description": "Crunchy caramel nut ice cream scoop flavored with rich butterscotch.",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-3",
+      "category": "desserts",
+      "name": "Pista Ice Cream",
+      "price": 100,
+      "isVeg": true,
+      "description": "Creamy ice cream loaded with dry roasted green pistachio bites.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-4",
+      "category": "desserts",
+      "name": "Mango Ice Cream",
+      "price": 100,
+      "isVeg": true,
+      "description": "Aromatic seasonal ripe Alphonso mango flavored scoop.",
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-5",
+      "category": "desserts",
+      "name": "Chocolate Ice Cream",
+      "price": 100,
+      "isVeg": true,
+      "description": "Decadent dark chocolate frozen sweet cream scoop.",
+      "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-6",
+      "category": "desserts",
+      "name": "Anjeera Ice Cream",
+      "price": 150,
+      "isVeg": true,
+      "description": "Unique premium ice cream loaded with dry fig paste and nuts.",
+      "image": "https://images.unsplash.com/photo-1559622214-f8a98509db7b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-7",
+      "category": "desserts",
+      "name": "Belgium Dark Chocolate",
+      "price": 170,
+      "isVeg": true,
+      "description": "Imported double-rich cocoa dark chocolate scoop.",
+      "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-8",
+      "category": "desserts",
+      "name": "Midnight Beauty Special",
+      "price": 300,
+      "isVeg": true,
+      "description": "Signature loaded sundae with chocolate cake, brownie, cherries, and ice cream.",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-9",
+      "category": "desserts",
+      "name": "Strawberry Milkshake",
+      "price": 120,
+      "isVeg": true,
+      "description": "Creamy blend of fresh milk and strawberry ice cream.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-10",
+      "category": "desserts",
+      "name": "Oreo Milk Shake",
+      "price": 160,
+      "isVeg": true,
+      "description": "Creamy blend of fresh milk, vanilla ice cream, and plenty of crushed Oreo cookies.",
+      "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-11",
+      "category": "desserts",
+      "name": "Kit Kat Milk Shake",
+      "price": 170,
+      "isVeg": true,
+      "description": "Creamy shake loaded with crushed crispy KitKat wafer bits.",
+      "image": "https://images.unsplash.com/photo-1508736793122-f516e3ba537d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-12",
+      "category": "desserts",
+      "name": "Oreo Nutella Milkshake",
+      "price": 180,
+      "isVeg": true,
+      "description": "Royal double blend of crushed Oreos, thick chocolate Nutella spread, and milk.",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13636?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ds-13",
+      "category": "desserts",
+      "name": "Peanut Butter Milkshake",
+      "price": 180,
+      "isVeg": true,
+      "description": "Thick creamy peanut butter blended with cold milk and vanilla cream.",
+      "image": "https://images.unsplash.com/photo-1524351199679-46cddf530c04?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
